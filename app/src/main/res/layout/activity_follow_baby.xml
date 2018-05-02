@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            tools:context="com.walidbarakat.newprogrammer.mazraaandroid.FollowBabyActivity">
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f1cc96">
+
+        <TextView
+            android:id="@+id/Txtshowdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="عرض التاريخ"
+            android:visibility="invisible"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/TxtTestDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:visibility="invisible"/>
+
+        <EditText
+            android:id="@+id/TxtNotes"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="927dp"
+            android:background="@drawable/edittextstyle"
+            android:ellipsize="start"
+            android:ems="10"
+            android:hint="ملاحظات"
+            android:inputType="textMultiLine"
+            android:textColorHint="#10100f"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ملاحظات:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:layout_marginRight="16dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="941dp"/>
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:text="المسلسل:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/LblCount1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="902dp"
+            android:text="0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/LblCount2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="304dp"
+            android:layout_marginTop="902dp"
+            android:text="0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <EditText
+            android:id="@+id/TxtCode"
+            android:layout_width="75dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="99dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edittextstyle"
+            android:ellipsize="start"
+            android:ems="10"
+            android:hint="المسلسل"
+            android:inputType="number"
+            android:textColorHint="#10100f"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="78dp"
+            android:text="اسم التحصين:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Spinner
+            android:id="@+id/SpnrTahsyn"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="99dp"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/edittextstyle"
+            android:inputType="text"
+            android:textColorHint="#10100f"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="298dp"
+            android:text="اسم العلاج:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Spinner
+            android:id="@+id/SpnrMedicin"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="99dp"
+            android:layout_marginTop="285dp"
+            android:background="@drawable/edittextstyle"
+            android:inputType="text"
+            android:textColorHint="#10100f"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageView
+            android:id="@+id/AddAll"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="160dp"
+            android:layout_marginRight="174dp"
+            android:layout_marginTop="590dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/selectall"/>
+
+        <ListView
+            android:id="@+id/lstAll"
+            android:layout_width="125dp"
+            android:layout_height="376dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="508dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/listview_border"/>
+
+        <ImageView
+            android:id="@+id/DelAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="160dp"
+            android:layout_marginRight="175dp"
+            android:layout_marginTop="650dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/removeall"/>
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="20dp"/>
+
+        <ImageView
+            android:id="@+id/AddOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="160dp"
+            android:layout_marginTop="710dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/back"/>
+
+        <ImageView
+            android:id="@+id/DelOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="160dp"
+            android:layout_marginTop="770dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/forward"/>
+
+        <ImageView
+            android:id="@+id/AddTahsyn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="312dp"
+            android:layout_marginTop="65dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/insert"/>
+
+        <ImageView
+            android:id="@+id/AddMedicin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="312dp"
+            android:layout_marginTop="285dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/insert"/>
+
+        <CheckBox
+            android:id="@+id/ChkRemeber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="1000dp"
+            android:text="تذكير قبل"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <EditText
+            android:id="@+id/TxtDays"
+            android:layout_width="75dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="122dp"
+            android:layout_marginTop="995dp"
+            android:background="@drawable/edittextstyle"
+            android:ellipsize="start"
+            android:ems="10"
+            android:hint="عدد الايام"
+            android:inputType="number"
+            android:textColorHint="#10100f"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/BtnPick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="163dp"
+            android:background="@drawable/buttonshap"
+            android:onClick="date"
+            android:text="التاريخ"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/BtnPick2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="218dp"
+            android:background="@drawable/buttonshap"
+            android:onClick="time"
+            android:text="الوقت"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/TxtDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="122dp"
+            android:layout_marginTop="177dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/TxtTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="122dp"
+            android:layout_marginTop="232dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="137dp"
+            android:text="تاريخ التحصين:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/BtnPick3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="373dp"
+            android:background="@drawable/buttonshap"
+            android:onClick="date2"
+            android:text="التاريخ"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/BtnPick4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="428dp"
+            android:background="@drawable/buttonshap"
+            android:onClick="time2"
+            android:text="الوقت"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/TxtDate2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="122dp"
+            android:layout_marginTop="388dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:choiceMode="multipleChoice"/>
+
+        <TextView
+            android:id="@+id/TxtTime2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="122dp"
+            android:layout_marginTop="441dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="345dp"
+            android:text="تاريخ العلاج:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ListView
+            android:id="@+id/lstChoosed"
+            android:layout_width="125dp"
+            android:layout_height="376dp"
+            android:layout_marginEnd="230dp"
+            android:layout_marginRight="232dp"
+            android:layout_marginTop="508dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/listview_border"/>
+
+        <TextView
+            android:id="@+id/LstAllItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="238dp"
+            android:layout_marginTop="491dp"
+            android:visibility="invisible"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="false"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3335691441959472/2656615097">
+        </com.google.android.gms.ads.AdView>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

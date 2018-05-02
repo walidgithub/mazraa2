@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.walidbarakat.newprogrammer.mazraaandroid">
+
+            <item android:id="@+id/BtnSrch"
+                  android:orderInCategory="100"
+                  android:title="Search"
+                  android:icon="@drawable/search"
+                  app:showAsAction="ifRoom"
+                />
+            <item android:id="@+id/BtnBack"
+                  android:orderInCategory="100"
+                  android:icon="@drawable/exit"
+                  android:title="Exit"
+                  app:showAsAction="ifRoom"
+                />
+
+</menu>

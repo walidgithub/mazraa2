@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.walidbarakat.newprogrammer.mazraaandroid">
+
+    <item android:title=""
+
+        app:showAsAction="always"
+        android:icon="@drawable/more">
+        <menu>
+            <item android:id="@+id/Users"
+                android:orderInCategory="100"
+                android:title="Users"
+                android:icon="@drawable/settings"
+                app:showAsAction="never"
+                />
+            <item android:id="@+id/BtnBack"
+                android:orderInCategory="100"
+                android:icon="@drawable/exit"
+                android:title="Exit"
+                app:showAsAction="never"
+                />
+        </menu>
+
+        ></item>>
+
+</menu>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/more"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/Menu_Insert"
+                android:icon="@drawable/insert"
+                android:orderInCategory="100"
+                android:title="Insert"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/Menu_FollowSheep"
+                android:icon="@drawable/followsheep"
+                android:orderInCategory="100"
+                android:title="Follow Sheep"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/Menu_FollowBaby"
+                android:icon="@drawable/lamb"
+                android:orderInCategory="100"
+                android:title="FollowBaby"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/Menu_Reports"
+                android:icon="@drawable/reports"
+                android:orderInCategory="100"
+                android:title="Reports"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/Menu_Alarm"
+                android:icon="@drawable/alarm"
+                android:orderInCategory="100"
+                android:title="Alarm"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/Menu_Exit"
+                android:icon="@drawable/exit"
+                android:orderInCategory="100"
+                android:title="Exit"
+                app:showAsAction="never" />
+        </menu>
+
+        >
+    </item>
+</menu>

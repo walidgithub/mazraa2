@@ -1,0 +1,108 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            tools:context="com.walidbarakat.newprogrammer.mazraaandroid.MotherReport">
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.walidbarakat.newprogrammer.mazraaandroid.Reports$PlaceholderFragment"
+        android:background="#f1cc96"
+        android:id="@+id/MotherFragment">
+
+        <EditText
+            android:id="@+id/TxtMotherNum"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edittextstyle"
+            android:ellipsize="start"
+            android:ems="10"
+            android:hint="رقم الام"
+            android:inputType="number"
+            android:textColorHint="#10100f"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="97dp"
+            android:layout_marginTop="411dp"
+            android:gravity="left"
+            android:orientation="vertical"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="97dp">
+
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="عدد الامهات:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:layout_marginRight="219dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="219dp" />
+
+        <TextView
+            android:id="@+id/TxtCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="61dp"
+            android:text="0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginRight="249dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginEnd="249dp" />
+
+        <TextView
+            android:id="@+id/LstItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="321dp"
+            android:layout_marginRight="321dp"
+            android:layout_marginTop="44dp"
+            android:visibility="invisible"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ListView
+            android:id="@+id/LstView"
+            android:layout_width="350dp"
+            android:layout_height="400dp"
+            android:layout_marginTop="91dp"
+            android:background="@drawable/listview_border"
+            android:scrollbars="horizontal|vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"/>
+
+        <ProgressBar
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="75dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

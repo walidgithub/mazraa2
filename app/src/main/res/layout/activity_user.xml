@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            tools:context="com.walidbarakat.newprogrammer.mazraaandroid.UserActivity">
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f1cc96">
+
+        <EditText
+            android:id="@+id/TxtCode"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="72dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edittextstyle"
+            android:ellipsize="start"
+            android:ems="10"
+            android:hint="الكود"
+            android:inputType="number"
+            android:textColorHint="#10100f"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="72dp"/>
+
+        <EditText
+            android:id="@+id/TxtUser"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="72dp"
+            android:layout_marginTop="103dp"
+            android:background="@drawable/edittextstyle"
+            android:ellipsize="start"
+            android:ems="10"
+            android:hint="اسم المستخدم"
+            android:inputType="text"
+            android:textColorHint="#10100f"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="72dp"/>
+
+        <EditText
+            android:id="@+id/TxtPass"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="72dp"
+            android:layout_marginTop="186dp"
+            android:background="@drawable/edittextstyle"
+            android:ellipsize="start"
+            android:ems="10"
+            android:hint="كلمة المرور"
+            android:inputType="textPassword"
+            android:textColorHint="#10100f"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="72dp"/>
+
+        <EditText
+            android:id="@+id/TxtPassConfirm"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="72dp"
+            android:layout_marginTop="273dp"
+            android:background="@drawable/edittextstyle"
+            android:ellipsize="start"
+            android:ems="10"
+            android:hint="تأكيد كلمة المرور"
+            android:inputType="textPassword"
+            android:textColorHint="#10100f"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="72dp"/>
+
+
+        <ListView
+            android:id="@+id/LstView"
+            android:layout_width="344dp"
+            android:layout_height="175dp"
+            android:layout_marginTop="329dp"
+            android:background="@drawable/listview_border"
+            android:scrollbars="horizontal|vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="10dp"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

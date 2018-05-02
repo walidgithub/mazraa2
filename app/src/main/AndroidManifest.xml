@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.walidbarakat.newprogrammer.mazraaandroid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EnterActivity"
+            android:label="@string/title_activity_enter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DataEntry"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="ادخال بيانات الغنم" />
+        <activity
+            android:name=".FollowMotherActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="متابعةامهات الغنم" />
+        <activity
+            android:name=".FollowBabyActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="متابعة مواليد الغنم" />
+        <activity
+            android:name=".BabySrch"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="بحث متابعة المواليد" />
+        <activity
+            android:name=".MotherReport"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="تقرير متابعة الامهات"></activity>
+        <activity
+            android:name=".BabyReport"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="تقرير متابعة المواليد"></activity>
+        <activity
+            android:name=".DeleteReport"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="تقرير العزل"></activity>
+        <activity
+            android:name=".MotherSrch"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="بحث متابعة الامهات" />
+        <activity
+            android:name=".UserActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="تسجيل المستخدمين" />
+        <activity
+            android:name=".TahsynActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="التحصينات" />
+        <activity
+            android:name=".MedicinActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="العلاج" />
+        <activity
+            android:name=".EndBaby"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="الفطام" />
+
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="false"></receiver>
+
+        <service
+            android:name=".MyNewIntentService"
+            android:exported="false"></service>
+
+        <receiver
+            android:name=".MedicinReceiver"
+            android:enabled="true"
+            android:exported="false"></receiver>
+
+        <service
+            android:name=".MedicinService"
+            android:exported="false"></service>
+
+        <receiver
+            android:name=".TahsynReceiver"
+            android:enabled="true"
+            android:exported="false"></receiver>
+
+        <service
+            android:name=".TahsynService"
+            android:exported="false"></service>
+
+        <receiver
+            android:name=".BMedicinReceiver"
+            android:enabled="true"
+            android:exported="false"></receiver>
+
+        <service
+            android:name=".BMedicinService"
+            android:exported="false"></service>
+
+        <receiver
+            android:name=".BTahsynReceiver"
+            android:enabled="true"
+            android:exported="false"></receiver>
+
+        <service
+            android:name=".BTahsynService"
+            android:exported="false"></service>
+
+        <activity
+            android:name=".Gallery"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="معرض الصور" />
+        <activity android:name=".MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="شاشة الدخول" />
+    </application>
+
+</manifest>

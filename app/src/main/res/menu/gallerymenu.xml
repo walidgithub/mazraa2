@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.walidbarakat.newprogrammer.mazraaandroid">
+
+    <item
+        android:id="@+id/BtnSearch"
+        android:icon="@drawable/search"
+        android:title="Search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"
+        />
+
+    <item
+        android:icon="@drawable/more"
+
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/BtnCamera"
+                android:orderInCategory="100"
+                android:title="Camera"
+                android:icon="@drawable/camera2"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/BtnGallery"
+                android:orderInCategory="100"
+                android:title="Gallery"
+                android:icon="@drawable/gallery4"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/BtnSave"
+                android:orderInCategory="100"
+                android:title="Save"
+                android:icon="@drawable/save"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/BtnShare"
+                android:orderInCategory="100"
+                android:title="Share"
+                android:icon="@drawable/share"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/BtnDelete"
+                android:orderInCategory="100"
+                android:title="Delete"
+                android:icon="@drawable/delete2"
+                app:showAsAction="never"
+                />
+        </menu>
+
+        >
+    </item>
+    >
+
+</menu>

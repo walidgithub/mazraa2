@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#f2d98e"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":رقم الام"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="53dp"
+            android:text=":رقم الذكر"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":رقم العنبر"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="105dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":ت.التسجيل"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="53dp"
+            android:layout_marginLeft="152dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="العلاج:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="156dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":ت.العلاج"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="197dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":التحصين"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="252dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":ت.التحصين"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="309dp"
+            android:layout_marginLeft="9dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":ملاحظات"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="366dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":رقم المولود"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="419dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":النوع"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="462dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":ت.الميلاد"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="462dp"
+            android:layout_marginLeft="127dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="515dp"
+            android:text=":المستخدم"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/TxtMotherNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="left"
+            android:text="MotherNum"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="67dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/TxtDady"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Dady"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#1c7c11"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="53dp"
+            android:layout_marginLeft="67dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/TxtPartition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Partition"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#1c7c11"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="101dp"
+            android:layout_marginLeft="67dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/TxtCreateDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="CreateDate"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#1c7c11"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="77dp"
+            android:layout_marginLeft="150dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/TxtBabyNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="BabyNum"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#1c7c11"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="419dp"
+            android:layout_marginLeft="80dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/TxtBirthDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="BirthDate"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#1c7c11"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="486dp"
+            android:layout_marginLeft="125dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/TxtGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Gender"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#1c7c11"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="462dp"
+            android:layout_marginLeft="48dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/TxtTahsyn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Tahsyn"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#e94b4b"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="252dp"
+            android:layout_marginLeft="67dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/TxtTahsynDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="TahsynDate"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#e94b4b"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="309dp"
+            android:layout_marginLeft="80dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/TxtMedicin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Medicin"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#48afef"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="156dp"
+            android:layout_marginLeft="67dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/TxtMedicinDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="MedicinDate"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#48afef"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="197dp"
+            android:layout_marginLeft="67dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/TxtNotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Notes"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#9d64f2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="366dp"
+            android:layout_marginLeft="80dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/TxtUsers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Users"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#9d64f2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="515dp"
+            android:layout_marginLeft="75dp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+</android.support.constraint.ConstraintLayout>

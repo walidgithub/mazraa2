@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.walidbarakat.newprogrammer.mazraaandroid">
+
+    <item
+        android:icon="@drawable/more"
+
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/BtnSave"
+                android:icon="@drawable/save"
+                android:orderInCategory="100"
+                android:title="Save"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/BtnSrch"
+                android:icon="@drawable/search"
+                android:orderInCategory="100"
+                android:title="Search"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/BtnDelete"
+                android:icon="@drawable/delete"
+                android:orderInCategory="100"
+                android:title="Delete"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/BtnBack"
+                android:icon="@drawable/exit"
+                android:orderInCategory="100"
+                android:title="Exit"
+                app:showAsAction="never"
+                />
+        </menu>
+
+        >
+    </item>
+    >
+
+</menu>

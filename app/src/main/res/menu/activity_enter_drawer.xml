@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Index"
+            android:icon="@drawable/ic_clear_all_black_24dp"
+            android:title="القائمه الرئيسيه" />
+        <item
+            android:id="@+id/Rating"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="التقييم" />
+    </group>
+
+    <item android:title="التواصل">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="مشاركه" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="ارسال ايميل" />
+        </menu>
+    </item>
+
+</menu>

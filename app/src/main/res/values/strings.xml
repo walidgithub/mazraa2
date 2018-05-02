@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">المزرعه</string>
+    <string-array name="SpinnerBabyType">
+        <item>ذكر</item>
+        <item>انثى</item>
+    </string-array>
+    <string name="title_activity_enter">المزرعه</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_reports">التقارير</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string-array name="menu">
+        <item>ادخال البيانات</item>
+        <item>متابعة الامهات</item>
+        <item>متابعة المواليد</item>
+        <item>التقارير</item>
+        <item>التذكيرات</item>
+        <item>معرض الصور</item>
+    </string-array>
+
+    <string-array name="menu2">
+        <item>تقرير متابعة الامهات</item>
+        <item>تقرير متابعة المواليد</item>
+        <item>تقرير العزل</item>
+    </string-array>
+
+    <string-array name="menu3">
+        <item>التحصينات</item>
+        <item>العلاج</item>
+        <item>الفطام</item>
+    </string-array>
+
+</resources>

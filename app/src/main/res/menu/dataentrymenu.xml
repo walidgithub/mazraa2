@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.walidbarakat.newprogrammer.mazraaandroid">
+
+    <item android:title=""
+
+        app:showAsAction="always"
+        android:icon="@drawable/more">
+        <menu>
+            <item android:id="@+id/BtnNew"
+                android:orderInCategory="100"
+                android:title="New"
+                android:icon="@drawable/newrecord"
+                app:showAsAction="never"
+                />
+            <item android:id="@+id/BtnSearch"
+                android:orderInCategory="100"
+                android:icon="@drawable/search"
+                android:title="Search"
+                app:showAsAction="never"
+                />
+            <item android:id="@+id/BtnSave"
+                android:orderInCategory="100"
+                android:icon="@drawable/save"
+                android:title="Save"
+                app:showAsAction="never"
+                />
+            <item android:id="@+id/BtnDelete"
+                android:orderInCategory="100"
+                android:icon="@drawable/delete"
+                android:title="Delete"
+                app:showAsAction="never"
+                />
+            <item android:id="@+id/BtnBack"
+                android:orderInCategory="100"
+                android:icon="@drawable/exit"
+                android:title="Back"
+                app:showAsAction="never"
+                />
+        </menu>
+
+        ></item>>
+
+</menu>
